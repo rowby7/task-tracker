@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to bottom, #35dc9b, #3857af);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+
+
+form button[type="submit"] {
+  background: #1aaf75;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background: #109f67;
+}
+
+#taskTable {
+  margin-top: 30px;
+  color: white;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+h1{
+   text-align: center;
+}
+
+#taskTable th,
+#taskTable td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: left;
+}
